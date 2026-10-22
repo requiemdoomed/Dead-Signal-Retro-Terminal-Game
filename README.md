@@ -1,7 +1,7 @@
 # DEAD SIGNAL
 
 **A retro-terminal mystery by Swayam Shakya**  
-GitHub: [RippedPaper](https://github.com/RippedPaper)
+GitHub: [RippedPaper](https://github.com/requiemdoomed)
 
 > **New to games or coding? Start with “Quick Start” below.** You do not need Python, a code editor, a GitHub account, or an internet connection to play the browser game.
 
