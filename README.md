@@ -13,7 +13,7 @@ Your job is to investigate the archive, read files, compare timestamps, and deci
 
 ## Quick start: play in a few minutes
 
-### 1. Download and extract the project
+### 1. Download and extract the project OR click on the public website link from this reporsitory
 
 Download the project ZIP from the place where it was shared with you. Extract it before opening the game:
 
