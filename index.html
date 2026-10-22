@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b10">
+  <meta name="description" content="DEAD SIGNAL — a short retro-computer mystery game by Swayam Shakya.">
+  <title>DEAD SIGNAL // Terminal 07</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="screen-noise" aria-hidden="true"></div>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">▣</span><div><p class="eyebrow">ARCHIVE SYSTEMS DIVISION</p><h1>DEAD SIGNAL</h1></div></div>
+      <div class="top-status"><span class="status-dot"></span><span id="system-status">SYSTEM ONLINE</span><span class="top-divider">/</span><span>TERM-07</span></div>
+    </header>
+
+    <section class="intro" id="intro">
+      <div class="intro-copy">
+        <p class="eyebrow">HIMALAYAN SIGNAL ARCHIVE // 1998</p>
+        <h2>Some files were<br><em>never meant</em> to open.</h2>
+        <p class="intro-text">A forgotten terminal has powered on by itself. Its last operator disappeared three days ago. The logs are incomplete, the clock is wrong, and someone left you a message.</p>
+        <button class="primary-button" id="boot-button">BOOT TERMINAL <span>↗</span></button>
+        <p class="microcopy">A short interactive mystery. No downloads, accounts, or external services.</p>
+      </div>
+      <div class="intro-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-core"><span>07</span><small>NO CARRIER</small></div>
+        <div class="art-label label-a">SIGNAL LOST</div><div class="art-label label-b">1998.10.17</div>
+        <div class="art-cross cross-a">+</div><div class="art-cross cross-b">+</div>
+      </div>
+    </section>
+
+    <section class="game hidden" id="game" aria-label="Game terminal">
+      <aside class="sidebar">
+        <div class="side-heading">SESSION FILE</div>
+        <div class="file-card"><span class="file-icon">▤</span><div><strong>OPERATOR.LOG</strong><small>RECOVERED / PARTIAL</small></div></div>
+        <div class="side-heading side-heading-spaced">DIRECTORY</div>
+        <button class="dir-item active" data-command="help"><span>⌘</span> terminal</button>
+        <button class="dir-item" data-command="ls"><span>▧</span> directory</button>
+        <button class="dir-item" data-command="status"><span>◉</span> system status</button>
+        <div class="mission-card">
+          <div class="mission-head"><span>CASE PROGRESS</span><span id="progress-count">00 / 05</span></div>
+          <div class="progress-track"><span id="progress-fill"></span></div>
+          <p id="mission-text">Find out what happened to the night operator.</p>
+        </div>
+        <div class="side-spacer"></div>
+        <div class="sidebar-note"><span class="tiny-dot"></span> LOCAL SESSION<br><small>Progress is saved in this browser.</small></div>
+        <button class="quiet-button ambience-button" id="ambience-button" aria-pressed="false">♫ SOUND: OFF</button>
+        <button class="quiet-button" id="reset-button">↻ RESET SESSION</button>
+      </aside>
+
+      <div class="terminal-panel">
+        <div class="terminal-titlebar">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <span>ARCHIVE://TERM-07/ROOT</span>
+          <span class="titlebar-right">TTY 80×24</span>
+        </div>
+        <div class="terminal-content" id="terminal-content" aria-live="polite">
+          <div class="boot-line">DEAD SIGNAL // TERMINAL 07</div>
+          <div class="muted-line">Type <code>help</code> to view available commands.</div>
+        </div>
+        <form class="command-form" id="command-form" autocomplete="off">
+          <label for="command-input"><span class="prompt-user">guest@term-07</span><span class="prompt-sep">:</span><span class="prompt-path">~</span><span class="prompt-symbol">$</span></label>
+          <input id="command-input" name="command" maxlength="120" spellcheck="false" aria-label="Terminal command" placeholder="enter a command..." disabled>
+          <button type="submit" aria-label="Run command" disabled>↵</button>
+        </form>
+        <div class="terminal-footer"><span id="footer-left">WAITING FOR BOOT</span><span>ESC: CLEAR INPUT <b>·</b> ↑/↓: HISTORY</span></div>
+      </div>
+    </section>
+
+    <footer class="site-footer"><span>© 2026 Swayam Shakya</span><span>FICTIONAL ARCHIVE INTERFACE <b>•</b> BUILD 1.0.0</span><a href="README.md">PROJECT NOTES ↗</a></footer>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <!-- Audio is synthesized locally by game.js; no external soundtrack files are required. -->
+  <script src="game.js"></script>
+</body>
+</html>

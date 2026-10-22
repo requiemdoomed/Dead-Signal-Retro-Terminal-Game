@@ -1,0 +1,22 @@
+DEAD SIGNAL — TEST REPORT
+
+Release checks for the beginner-documentation update:
+- Python standard-library unit tests: 8 passed, 0 failed.
+- JavaScript syntax check with Node.js: passed.
+- HTML local-reference check: passed; styles.css, README.md, and game.js are present.
+- Story content check: all nine in-game evidence files are referenced in game.js.
+- ZIP archive integrity check: passed after packaging.
+
+Scope and limitations:
+- Python unit tests exercise the separate reference engine, including clue dependencies, invalid files, response phrases, the three primary endings, and the hidden ending's all-files requirement.
+- Syntax and reference checks do not execute the full game in a graphical browser.
+- Manual browser testing is still recommended on the target device: launch index.html, test command input and file access, verify save/reset behavior and ambience toggle, and complete each ending in a fresh session.
+
+Beginner instructions are documented in README.md, including extracting the ZIP, opening index.html, command examples, clue order, ending requirements, optional Python tests, editing files, and optional GitHub Pages publishing.
+
+AUDIO UPDATE
+- Replaced the single continuous tone with a locally synthesized, layered mysterious soundtrack.
+- Added restrained command, file-open, scan, error, boot, and ending sound effects.
+- Audio starts from the BOOT TERMINAL user gesture and can be toggled off/on.
+- No external audio assets or network requests are required.
+- Browser/device audio behavior still requires a manual playthrough on the target device.
