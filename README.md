@@ -17,7 +17,7 @@ Your job is to investigate the archive, read files, compare timestamps, and deci
 
 ### 1. Start the Game
 
-Open `index.html` in your browser and enter these commands one at a time:
+Open `index.html` in your browser or click above link directly, and enter these commands one at a time:
 
 ```text
 help
