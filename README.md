@@ -99,6 +99,12 @@ For the secret ending, discover and open all nine story files before entering `d
 | `clear` | Clear the terminal display |
 | `reset` | Restart the game |
 
+### Recommended First Playthrough
+
+For the best experience, enter `help`, `status`, and `ls`, then investigate the files in order. Use `scan` and `hint` when needed, and discover the ending phrases naturally before consulting the spoiler section.
+
+**Remember:** Read the evidence, question the timestamps, and decide what you believe is happening to the signal.
+
 To unlock **The Name in the Static**, you must recover **all nine files**. Use `ls`, `ls /logs`, and `ls /private`, then open every file you find. The full list is:
 
 - Main directory: `readme.txt`, `memo.txt`, `operator.dat`
