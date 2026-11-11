@@ -609,7 +609,7 @@
       input.focus();
     });
   });
-
+  
   load();
   if (state.solved || state.found.length || state.history.length) footer.textContent = "SAVED SESSION AVAILABLE";
 })();
