@@ -1,9 +1,7 @@
-# DEAD SIGNAL: Retro Terminal Game
+# [DEAD SIGNAL: Retro Terminal Game](https://requiemdoomed.github.io/Dead-Signal-Retro-Terminal-Game/)
 
 **A retro-terminal mystery by Swayam Shakya**  
 GitHub: [Swayam Shakya](https://github.com/requiemdoomed)
-
-> **New to games or coding? Start with “Quick Start” below.** You do not need Python, a code editor, a GitHub account, or an internet connection to play the browser game.
 
 ## About the game
 
