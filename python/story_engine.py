@@ -3,13 +3,11 @@
 The playable game runs in the browser. This standard-library module mirrors
 the clue dependencies and the three possible final responses.
 """
-
 FILES = (
     "readme.txt", "shift.log", "memo.txt", "private.note", "transmission.dat",
     "operator.dat", "incident.txt", "clock.txt", "voice.transcript"
 )
 PHRASE_ENDINGS = {"STILL HERE": "open door", "DISCONNECT": "quiet room", "ERASE": "static memory", "REMEMBER": "the name in the static"}
-
 
 class StoryEngine:
     """Track recovered files and resolve one of the story's endings."""
