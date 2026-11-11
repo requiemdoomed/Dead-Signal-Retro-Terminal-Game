@@ -1,4 +1,4 @@
-DEAD SIGNAL — TEST REPORT
+DEAD SIGNAL : Retro Terminal Game — TEST REPORT
 
 Release checks for the beginner-documentation update:
 - Python standard-library unit tests: 8 passed, 0 failed.
