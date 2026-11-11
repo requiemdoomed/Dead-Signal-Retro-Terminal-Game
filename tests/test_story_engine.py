@@ -5,7 +5,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "python"))
 from story_engine import FILES, StoryEngine
 
-
 class StoryEngineTests(unittest.TestCase):
     def prepare_finale(self):
         game = StoryEngine()
@@ -65,7 +64,6 @@ class StoryEngineTests(unittest.TestCase):
         game = StoryEngine()
         game.open_file("readme.txt")
         self.assertEqual(game.status(), {"indexed_files": 1, "total_files": 9, "solved": False})
-
 
 if __name__ == "__main__":
     unittest.main()
