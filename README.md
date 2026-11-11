@@ -10,13 +10,11 @@ DEAD SIGNAL is a fictional, browser-playable mystery set at the Himalayan Signal
 
 Your job is to investigate the archive, read files, compare timestamps, and decide how to answer the signal. The story intentionally leaves one question open: is the terminal carrying a message through time, or reconstructing people from the records they left behind?
 
-## Link: [Game](https://requiemdoomed.github.io/Dead-Signal-Retro-Terminal-Game/)
-
 ## Complete Beginner Walkthrough
 
 ### 1. Start the Game
 
-Open `index.html` in your browser or click above link directly, and enter these commands one at a time:
+Open `index.html` in your browser or click in the above title link directly, and enter these commands one at a time:
 
 ```text
 help
