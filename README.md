@@ -126,7 +126,7 @@ By playing the game, you can explore:
 - **Storytelling and Interpretation:** Consider whether the terminal is communicating across time or reconstructing a missing person from archived information.
 - **Atmospheric Game Design:** Experience how sound, visual design, pacing, and incomplete information can create suspense.
 
-### The Bigger Question
+### The Bigger Question?
 
 **Can a machine preserve a person's presence, or does it only preserve the information they left behind?**
 
