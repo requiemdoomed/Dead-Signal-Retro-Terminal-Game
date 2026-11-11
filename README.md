@@ -1,6 +1,6 @@
 # [DEAD SIGNAL: Retro Terminal Game](https://requiemdoomed.github.io/Dead-Signal-Retro-Terminal-Game/)
 
-Python · HTML/CSS/JS · Browser-based Game
+Python · HTML · CSS · JS · Browser-based Game
 
 GitHub: [Swayam Shakya](https://github.com/requiemdoomed)
 
