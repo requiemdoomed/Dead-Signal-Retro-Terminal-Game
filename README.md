@@ -1,4 +1,4 @@
-# DEAD SIGNAL
+# DEAD SIGNAL: Retro Terminal Game
 
 **A retro-terminal mystery by Swayam Shakya**  
 GitHub: [Swayam Shakya](https://github.com/requiemdoomed)
